@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <script src="https://kit.fontawesome.com/92c32677f3.js" crossorigin="anonymous"></script>
+    <title>Responsive Website</title>
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <div id="navbar-brand">
+        <a href="#"><i id="navbar-icon" class="fas fa-store"></i></a>
+      </div>
+      <div id="navbar-menu">
+        <ul>
+          <li><a class="navbar-item" href="#about">Our Story</a></li>
+          <li><a class="navbar-item" href="#menu">Menu</a></li>
+          <li><a class="navbar-item" href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="main">
+      <h1 id="main-header">김밥슈퍼</h1>
+    </section>
+
+    <section id="about">
+      <h1>Our Story</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est rem iure nemo voluptas, adipisci beatae tempore incidunt quod reiciendis, saepe rerum nisi ea expedita iste voluptates, repudiandae ipsum labore magnam voluptatibus eum perspiciatis fugit vel. Ipsam, numquam repellendus! Omnis hic nisi quidem est autem architecto, sunt maiores ducimus aperiam nulla nemo? Ducimus, eos. Blanditiis itaque in nobis adipisci. Libero, modi.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis exercitationem cum ipsum sequi assumenda adipisci nulla est architecto sapiente. Iste molestiae impedit alias numquam facere natus dignissimos aut mollitia dolorem omnis eius, ipsa accusantium similique beatae nemo excepturi! Nostrum, illum.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quo quod labore omnis esse aliquam dolores corporis in nam quis obcaecati delectus recusandae porro odio facilis, blanditiis cupiditate, quae similique autem numquam aut assumenda! Saepe cumque quasi iure tempore quae.</p>
+    </section>
+
+    <section id="photo-1" class="photo"></section>
+
+    <section id="menu">
+      <div id="menu-container">
+        <h1>Menu</h1>
+        <div id='items-container'>
+        </div>
+      </div>
+    </section>
+
+    <section id="photo-2" class="photo"></section>
+
+    <section id="contact">
+      <div id="form-container">
+        <h1>Contact Us</h1>
+        <form>
+          <div>
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="name" placeholder="Jeon In-kwon" required>
+          </div>
+          <div>
+            <label for="email">E-mail</label><br>
+            <input type="email" name="email" id="email" placeholder="jinkwon123@angelfire.com" required>
+          </div>
+          <div>
+            <label for="message">Message</label><br>
+            <textarea rows=12 name="message" id="message" placeholder="Tell us how we're doing!" required></textarea>
+          </div>
+          <div>
+            <input type="button" value="Send" id="input-button">
+          </div>
+        </form>
+      </div>
+
+      <div id="info-container">
+        <div id="info-left-container">
+          <h2>Location</h2>
+          <p>
+            <i class="fas fa-fw fa-map-marker-alt"></i> 1234 Fake Street Blvd<br>
+            <i class="fas fa-fw"></i> Washington, DC 20001<br>
+            <i class="fas fa-fw"></i> <a href="#">Get Directions</a>
+          </p>
+          <h2>Phone</h2>
+          <p><i class="fas fa-fw fa-phone-alt"></i> (202) 555-0148</p>
+          <h2>E-mail</h2>
+          <p><i class="fas fa-fw fa-envelope"></i> hello@fakemail.com</p>
+        </div>
+        <div id="info-right-container">
+          <h2>Hours</h2>
+          <h4>Lunch:</h4>
+          <p>
+            Mon-Fri: 11:00 AM - 1:00 PM
+          </p>
+          <h4>Dinner:</h4>
+          <p>
+            Mon-Thu: 4:30 PM - 10:30 PM<br>
+            Fri-Sat: 4:30 PM - 11:00 PM<br>
+            Sun: 5:00 PM - 10:00 PM
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div id="footer-menu">
+        <ul>
+          <li><a class="footer-item" href="#about">Our Story</a></li>
+          <li><a class="footer-item" href="#menu">Menu</a></li>
+          <li><a id="footer-last" href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
